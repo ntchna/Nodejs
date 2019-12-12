@@ -1,0 +1,28 @@
+{
+  "name": "noda",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "eslint .",
+    "prettier": "prettier --config .prettierrc.json --write *.js",
+    "start": "node server.js",
+    "precommit":"npm run prettier",
+    "prepush": "call npm run test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ntchna/Nodejs.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ntchna/Nodejs/issues"
+  },
+  "homepage": "https://github.com/ntchna/Nodejs#readme",
+  "dependencies": {
+    "eslint": "^6.7.2",
+    "husky": "^3.1.0",
+    "prettier": "^1.19.1"
+  }
+}
