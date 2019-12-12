@@ -5,3 +5,7 @@ script:
  - npm test
 notifications:
   email: false
+deploy:
+  provider: heroku
+  api_key: 0a5600b3-568e-4833-aac8-b0fe5ecca91c
+  app: web-dot
