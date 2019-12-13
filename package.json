@@ -1,6 +1,12 @@
 {
   "name": "noda",
   "version": "1.0.0",
+  "husky":{
+    "hooks":{
+      "pre-commit":"npm test",
+      "pre-push":"npm test"
+    }
+  },
   "description": "",
   "main": "server.js",
   "scripts": {
